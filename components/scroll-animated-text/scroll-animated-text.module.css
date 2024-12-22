@@ -1,0 +1,38 @@
+.title {
+    background-image: linear-gradient(to right, var(--black), var(--black)),
+        linear-gradient(to right, var(--slate-300), var(--slate-300));
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size:
+        0% 100%,
+        100% 100%;
+    color: transparent;
+    display: inline;
+    animation: reveal-text linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+@keyframes reveal-text {
+    to {
+        background-size:
+            100% 100%,
+            100% 100%;
+    }
+}
+
+@media (max-width: 810px) {
+    .title {
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: -0.54px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.54px;
+    }
+}

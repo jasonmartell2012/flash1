@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.image_container {
+    position: relative;
+    margin-right: 32px;
+    height: 300px;
+    width: 480px;
+}
+
+@media (max-width: 480px) {
+}

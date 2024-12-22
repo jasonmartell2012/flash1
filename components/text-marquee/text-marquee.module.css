@@ -1,0 +1,25 @@
+.title {
+  font-size: 200px;
+  font-style: italic;
+  margin-right: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 160px;
+  }
+}
+
+@media (max-width: 810px) {
+  .title {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 390px) {
+  .title {
+    font-size: 96px;
+  }
+}
